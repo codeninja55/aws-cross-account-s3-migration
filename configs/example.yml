@@ -1,0 +1,6 @@
+---
+source_role_arn: "{{ SOURCE ACCOUNT IAM ROLE }}"
+source_bucket_id: "{{ SOURCE ACCOUNT BUCKET ID/NAME }}"
+destination_bucket_id: "{{ DESTINATION ACCOUNT BUCKET ID/NAME }}"
+source_cmk_id: "{{ SOURCE ACCOUNT KMS KEY }}"
+destination_cmk_id: "{{ DESTINATION ACCOUNT KMS KEY }}"
